@@ -41,7 +41,7 @@ int centerConfirmThreshold = 12;
 
 // ===== 교차로 전용 변수 =====
 int crossConfirmCount = 0;
-const int crossConfirmThreshold  = 4;  // 2 유지
+const int crossConfirmThreshold  = 4;  // 4회 연속 감지 시 교차로 판정
 bool inCrossing = false;
 unsigned long crossStartTime = 0;
 const int cross_straight_time = 370;
